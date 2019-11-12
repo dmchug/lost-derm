@@ -1,0 +1,153 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    #container { 
+        background-color: rgb(208, 31, 31);
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    .lostboy-item{
+        width: 260px;
+        height: 300px;
+        background-color: rgb(208, 31, 31);
+        background-image:url("../images/leomcq.png");
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    
+        transition: background-color 500ms, transform 500ms;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lostboy-item:hover{ 
+        transform: scale(1.1);
+    }
+
+    .lostboy-item .title {
+        color: rgba(208, 31, 31, 0);
+        transition: color 500ms;
+        font-family: 'Acme', sans-serif;
+        width: 10%;
+        
+    }
+    
+    .lostboy-item:hover > p {
+        color: rgba(255,255,255,1);
+    }
+
+    
+
+     #lostboy-tape-a{
+         text-decoration: none;
+      
+     }
+    .lostboy-tape{
+        width: 260px;
+        height: 100px;
+        background-color: rgb(208, 31, 31);
+        background-image:url("../images/losttape.PNG");
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        transition: background-color 500ms, transform 500ms;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+    }
+    .lostboy-tape:hover{
+        background-color: rgb(208, 31, 31);
+        transform: scale(1.1);
+        
+    }
+    .lostboy-tape .title{
+       text-decoration: none;
+       color: rgba(208, 31, 31,0);
+       transition: color 500ms;
+       position: absolute;
+       top: 100%;
+       font-family: 'Acme', sans-serif;
+       
+    }
+    .lostboy-tape:hover > p {
+        color: rgba(255,255,255,1);
+        text-decoration: none;
+    }
+    .lostboy-romeo{
+        width: 260px;
+        height: 230px;
+        background-color: rgb(208, 31, 31);
+        background-image:url("../images/NAKED2.PNG");
+        margin: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        transition: background-color 500ms, transform 500ms;
+        display: flex;
+        justify-content: center;
+    }
+    .lostboy-romeo:hover{
+        background-color: rgb(208, 31, 31);
+        transform: scale(1.1);
+        
+
+
+    }
+    .lostboy-romeo .title{
+        text-decoration: none;
+        color: rgba(208, 31, 31,0);
+        transition: color 500ms;
+        position:absolute;
+        top: 110%;
+        font-family: 'Acme', sans-serif;
+    }
+    
+    .lostboy-romeo:hover > p {
+        color: rgba(255,255,255,1);
+    
+    
+    }
+    
+    #popout {
+        display: none;
+        position:absolute;
+        top:100px;
+        left: 100px;
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-50%,-50%);
+        background-color: beige;
+        border-radius:5px;
+        border: 3px red;
+    }
+    .webpage{
+    
+        width: 200px;
+        height: 200px;
+        border: 2px red;
+        top: 0%;
+        animation-name:popout;
+        animation-duration: 1000ms;
+        animation-fill-mode: forwards;
+    
+    }
+    
+    @keyframes popout {
+     0%{transform : scale(0,0)};
+    
+        }
