@@ -22,7 +22,7 @@
         width: 260px;
         height: 300px;
         background-color: rgb(208, 31, 31);
-        background-image:url("../images/leomcq.png");
+        background-image:url("../assets/images/leomcq.png");
         margin: 10px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -59,7 +59,7 @@
         width: 260px;
         height: 100px;
         background-color: rgb(208, 31, 31);
-        background-image:url("../images/losttape.PNG");
+        background-image:url("../assets/images/losttape.PNG");
         margin: 10px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -92,7 +92,7 @@
         width: 260px;
         height: 230px;
         background-color: rgb(208, 31, 31);
-        background-image:url("../images/NAKED2.PNG");
+        background-image:url("../assets/images/NAKED2.PNG");
         margin: 10px;
         background-size: cover;
         background-repeat: no-repeat;
